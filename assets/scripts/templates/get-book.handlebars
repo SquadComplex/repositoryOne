@@ -1,6 +1,7 @@
+{{#each books as |book|}}
 <div data-id="{{book.id}}">
   <h3 class="id">Book ID: {{book.id}}</h3>
   <h3 class="title">{{book.title}}</h3>
   <p class="author">{{book.author}}</p>
-
 </div>
+{{/each}}
