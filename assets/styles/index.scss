@@ -1,2 +1,33 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  background-color: #D2B7EF;
+  text-align: center;
+  font-family: 'Baloo', cursive;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.get-books-btn {
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 0 #8F61C1;
+  transition: all ease 0.5s;
+  font-size: 24px;
+}
+
+.get-books-btn:hover {
+    box-shadow: inset 0 100px 0 0 #8F61C1;
+}
+
+.get-books-btn:active {
+  box-shadow: inset 0 100px 0 0 #7140A5;
+  transform: translateY(3px);
+  transition: 0.2s;
+}
+
+.get-books-btn:focus {
+  outline: 0;
+}
