@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .get-books-btn {
@@ -26,6 +26,10 @@ h1 {
   box-shadow: inset 0 100px 0 0 #7140A5;
   transform: translateY(3px);
   transition: 0.2s;
+}
+
+.letter:hover {
+  color: #66329F;
 }
 
 .get-books-btn:focus {
