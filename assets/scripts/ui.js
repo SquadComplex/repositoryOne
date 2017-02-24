@@ -2,7 +2,7 @@
 'use strict';
 
 const success = () => {
-  $('#get-books-btn').text('Action Successful');
+  $('.message').text('Action Successful Yall');
 };
 module.export = {
   success
