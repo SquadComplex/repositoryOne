@@ -10,5 +10,5 @@ const returnData = function (data) {
 };
 
 module.exports = {
-  returnData
+  returnData,
 };
